@@ -1,11 +1,7 @@
-from turtle import title
 from flask import Flask,render_template,redirect,request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-
-
-from sqlalchemy import desc
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']="sqlite:///todo.db"
