@@ -2,8 +2,8 @@ from turtle import title
 from flask import Flask,render_template,redirect,request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-import tkinter as tk
-import _tkinter as tk
+import tkinter as TK
+import _tkinter 
 
 from sqlalchemy import desc
 
